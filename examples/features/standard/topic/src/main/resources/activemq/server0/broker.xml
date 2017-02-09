@@ -38,7 +38,7 @@ under the License.
       <!-- Other config -->
       <security-settings>
          <!--security for example topic-->
-         <security-setting match="exampleTopic">
+         <security-setting match="#">
             <permission roles="guest" type="createDurableQueue"/>
             <permission roles="guest" type="deleteDurableQueue"/>
             <permission roles="guest" type="createAddress"/>

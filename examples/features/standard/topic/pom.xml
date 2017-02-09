@@ -41,6 +41,11 @@ under the License.
          <artifactId>artemis-jms-client</artifactId>
          <version>${project.version}</version>
       </dependency>
+      <dependency>
+         <groupId>org.apache.camel</groupId>
+         <artifactId>camel-amqp</artifactId>
+         <version>2.18.0</version>
+      </dependency>
    </dependencies>
 
    <build>
@@ -78,7 +83,7 @@ under the License.
                      <goal>runClient</goal>
                   </goals>
                   <configuration>
-                     <clientClass>org.apache.activemq.artemis.jms.example.TopicExample</clientClass>
+                     <clientClass>org.apache.activemq.artemis.jms.example.TopicExampleIntegerMessage</clientClass>
                   </configuration>
                </execution>
                <execution>
