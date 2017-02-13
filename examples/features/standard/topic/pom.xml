@@ -83,7 +83,7 @@ under the License.
                      <goal>runClient</goal>
                   </goals>
                   <configuration>
-                     <clientClass>org.apache.activemq.artemis.jms.example.TopicExampleIntegerMessage</clientClass>
+                     <clientClass>org.apache.activemq.artemis.jms.example.TopicExampleIntegerMessageNoCamel</clientClass>
                   </configuration>
                </execution>
                <execution>
